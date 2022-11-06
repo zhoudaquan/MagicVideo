@@ -3,9 +3,9 @@ jQuery(document).ready(function($) {
   const data_list = [
     {
       'link':'./img/1.gif',
-      'name': 'image1',
-      'header': 'header1',
-      'text':'input text1'
+      'name': 'Magic',
+      'header': 'Video',
+      'text':'A confused grizzly bear in calculus class.'
     },
     {
       'link':'./img/2.gif',
