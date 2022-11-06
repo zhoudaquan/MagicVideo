@@ -3,57 +3,57 @@ jQuery(document).ready(function($) {
   const data_list = [
     {
       'link':'./img/1.gif',
-      'name': 'Magic',
-      'header': 'Video',
+      'name': 'MagicVideo',
+      'header': '',
       'text':'A confused grizzly bear in calculus class.'
     },
     {
       'link':'./img/2.gif',
-      'name': 'image2',
-      'header': 'header2',
-      'text':'input text2'
+      'name': 'MagicVideo',
+      'header': '',
+      'text':'A person riding a horse in the sunrise.'
     },
     {
       'link':'./img/3.gif',
-      'name': 'image3',
-      'header': 'header3',
-      'text':'input text3'
+      'name': 'MagicVideo',
+      'header': '',
+      'text':'Coffee pouring into a cup.'
     },
     {
       'link':'./img/4.gif',
-      'name': '',
+      'name': 'MagicVideo',
       'header': '',
-      'text':'hweuqflherqgcrme;xxxxxxxxxxxxxxxxxxxxxxxxawrncaiughfrwvcyaweucyuw f'
+      'text':'An astronaut is riding a horse in the space in a photorealistic style'
     },
     {
       'link':'./img/5.gif',
-      'name': '',
+      'name': 'MagicVideo',
       'header': '',
-      'text':'input text5'
+      'text':'Robot dancing in times square'
     },
     {
       'link':'./img/6.gif',
-      'name': 'image6',
-      'header': 'header6',
-      'text':'input text6'
+      'name': 'MagicVideo',
+      'header': '',
+      'text':'Drone flythrough of a tropical jungle covered in snow.'
     },
     {
       'link':'./img/7.gif',
-      'name': '',
+      'name': 'MagicVideo',
       'header': '',
-      'text':'hweuqflherqgcrme;xxxxxxxxxxxxxxxxxxxxxxxxawrncaiughfrwvcyaweucyuw f'
+      'text':'A beautiful sunrise on mars, Curiosity rover. High definition, timelapse, dramatic colors.'
     },
     {
       'link':'./img/8.gif',
-      'name': '',
+      'name': 'MagicVideo',
       'header': '',
-      'text':'input text8'
+      'text':'Wooden figurine walking on a treadmill made out of exercise mat'
     },
     {
       'link':'./img/9.gif',
-      'name': 'image9',
-      'header': 'header9',
-      'text':'input text9'
+      'name': 'MagicVideo',
+      'header': '',
+      'text':'Sprouts in the shape of text ’Imagen’ coming out of a fairytale book.'
     }
   ]
 
