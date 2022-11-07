@@ -1,5 +1,6 @@
 jQuery(document).ready(function($) {
 
+
   const data_list = [
     {
       'link':'./img/1.gif',
@@ -66,8 +67,8 @@ jQuery(document).ready(function($) {
     <a href=${data.link} data-lightbox="image-1"><div class="thumb">
         <div class="hover-effect">
             <div class="hover-content">
-                <h1>${data.name} <em>${data.header}</em></h1>
-                <p>${data.text}</p>
+                 <h1 id="onDesktop">${data.name} <em>${data.header}</em></h1>
+                 <p id="onDesktop">${data.text}</p>
             </div>
         </div>
         <div class="image">
@@ -145,3 +146,4 @@ jQuery(document).ready(function($) {
 
 
 });
+
