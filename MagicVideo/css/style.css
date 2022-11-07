@@ -1348,7 +1348,7 @@ footer a:hover {
   grid-template-columns: 1fr 1fr 1fr ;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:2900px) {
   #onDesktop {
     display:none;
   }
