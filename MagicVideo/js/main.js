@@ -71,8 +71,8 @@ jQuery(document).ready(function($) {
     {
       'link':'./img/12.gif',
       'name': 'MagicVideo',
-      'header': 'Origami dancers in white paper, 3D render, ultra-detailed, on white background, studio shot, dancing modern dance.',
-      'text': ''
+      'header': '',
+      'text': 'Origami dancers in white paper, 3D render, ultra-detailed, on white background, studio shot, dancing modern dance.'
     }
     {
       'link':'./img/13.gif',
@@ -128,12 +128,6 @@ jQuery(document).ready(function($) {
       'header': '',
       'text': 'iPouring latte art into a silver cup with a golden spoon next to it.'
     }
-    // {
-    //   'link':'./img/16.gif',
-    //   'name': 'MagicVideo',
-    //   'header': '',
-    //   'text': ''
-    // }
   ]
 
 
