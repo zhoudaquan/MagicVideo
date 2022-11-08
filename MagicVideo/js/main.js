@@ -99,12 +99,6 @@ jQuery(document).ready(function($) {
       'text': 'Drone flythrough of a pixel art of futuristic city.'
     },
     {
-      'link':'./img/16.gif',
-      'name': 'MagicVideo',
-      'header': '',
-      'text': ''
-    },
-    {
       'link':'./img/17.gif',
       'name': 'MagicVideo',
       'header': '',
