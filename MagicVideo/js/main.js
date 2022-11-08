@@ -56,6 +56,84 @@ jQuery(document).ready(function($) {
       'header': '',
       'text':'Sprouts in the shape of text ’Imagen’ coming out of a fairytale book.'
     }
+    {
+      'link':'./img/10.gif',
+      'name': 'MagicVideo',
+      'header': '',
+      'text':'Hyper-realistic spaceship landing on mars.'
+    }
+    {
+      'link':'./img/11.gif',
+      'name': 'MagicVideo',
+      'header': '',
+      'text': 'A tiger with fur made out of electricity, digital art.'
+    }
+    {
+      'link':'./img/12.gif',
+      'name': 'MagicVideo',
+      'header': 'Origami dancers in white paper, 3D render, ultra-detailed, on white background, studio shot, dancing modern dance.',
+      'text': ''
+    }
+    {
+      'link':'./img/13.gif',
+      'name': 'MagicVideo',
+      'header': '',
+      'text': 'Campfire at night in a snowy forest with starry sky in the background.'
+    }
+    {
+      'link':'./img/14.gif',
+      'name': 'MagicVideo',
+      'header': 'Drone flythrough of a tropical jungle covered in snow.',
+      'text': ''
+    }
+    {
+      'link':'./img/15.gif',
+      'name': 'MagicVideo',
+      'header': '',
+      'text': 'A blue unicorn flying over a mystical land.'
+    }
+    {
+      'link':'./img/16.gif',
+      'name': 'MagicVideo',
+      'header': '',
+      'text': 'Drone flythrough of a pixel art of futuristic city.'
+    }
+    {
+      'link':'./img/16.gif',
+      'name': 'MagicVideo',
+      'header': '',
+      'text': ''
+    }
+    {
+      'link':'./img/17.gif',
+      'name': 'MagicVideo',
+      'header': '',
+      'text': 'Drone flythrough of a tropical jungle covered in snow. High Definition.'
+    }
+    {
+      'link':'./img/18.gif',
+      'name': 'MagicVideo',
+      'header': '',
+      'text': 'A cat eating food out of a bowl, in style of Van Gogh.'
+    }
+    {
+      'link':'./img/19.gif',
+      'name': 'MagicVideo',
+      'header': '',
+      'text': 'A 3D model of an elephant origami. Studio lighting.'
+    }
+    {
+      'link':'./img/20.gif',
+      'name': 'MagicVideo',
+      'header': '',
+      'text': 'iPouring latte art into a silver cup with a golden spoon next to it.'
+    }
+    // {
+    //   'link':'./img/16.gif',
+    //   'name': 'MagicVideo',
+    //   'header': '',
+    //   'text': ''
+    // }
   ]
 
 
