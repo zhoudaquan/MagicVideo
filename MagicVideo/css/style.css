@@ -1345,10 +1345,10 @@ footer a:hover {
 
 #image-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
 }
 
-@media screen and (max-width:2900px) {
+@media screen and (max-width:600px) {
   #onDesktop {
     display:none;
   }
