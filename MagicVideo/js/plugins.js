@@ -693,7 +693,7 @@
           }
         });
     }
-
+    
     if (this.album.length > 1 && this.options.showImageNumberLabel) {
       // var labelText = this.imageCountLabel(this.currentImageIndex + 1, this.album.length);
       var labelText = this.imageTextLabel(data_list[this.currentImageIndex].text);
