@@ -247,19 +247,21 @@ jQuery(document).ready(function($) {
 
   ]
 
-
-  for (data of data_list) {
+  //for (data of data_list) {
+  for(i = 0; i < 15; i++) {
+    data = data_list[i];
   if (document.getElementById('image-container')!= null){
     document.getElementById('image-container').innerHTML += `
-    <a href=${data.link} data-lightbox="image-1"><div class="thumb">
+    <a href=${data.link} data-lightbox="image-1">
+    <div class="thumb">
         <div class="hover-effect" name=${data.name} hidden="true">
             <div class="hover-content">
                  <p>${data.text}</p>
             </div>
         </div>
-        <div class="image">
-        <img src=${data.link} alt="imgae not in path" id=${data.name}>
-    </div>
+        <div class="image" >
+            <img src=${data.link} alt="imgae not in path" id=${data.name}>
+        </div>
     </div></a>
 `;
 
@@ -268,6 +270,37 @@ jQuery(document).ready(function($) {
 }
 
 	'use strict';
+        $('#loadmore').click(function(){
+            document.getElementById('loadmorediv').hidden = true;
+            for(i = 15; i < data_list.length; i++) {
+                data=data_list[i];
+                document.getElementById('image-container').innerHTML += `
+  		  <a href=${data.link} data-lightbox="image-1">
+    		  <div class="thumb">
+                    <div class="hover-effect" name=${data.name} hidden="true">
+                      <div class="hover-content">
+                        <p>${data.text}</p>
+                      </div>
+                    </div>
+                    <div class="image" >
+                      <img src=${data.link} alt="image not in path" id=${data.name}>
+                    </div>
+             </div></a>
+`;
+            }
+
+         $('img').mouseover(function() {
+            this.style.opacity=0.3;
+            document.getElementsByName(this.id)[0].hidden=false;
+         });
+         $('img').mouseout(
+            function() {
+               this.style.opacity = 1.0;
+               dv = document.getElementsByName(this.id)[0];
+               dv.hidden=true;
+            });
+        });
+
         $('img').mouseover(
             function() {
                this.style.opacity = 0.3;
@@ -281,8 +314,6 @@ jQuery(document).ready(function($) {
                dv = document.getElementsByName(this.id)[0];
                dv.hidden=true;
             });
-       
-
         $(function() {
   
           // Vars

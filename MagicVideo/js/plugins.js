@@ -38,62 +38,252 @@
     this.option(options);
   }
 
-  const data_list = [
+    const data_list = [
     {
-      'link':'./img/1.gif',
-      'name': 'MagicVideo',
+      'link':'./img/001.gif',
+      'name': 'im1',
       'header': '',
-      'text':'A confused grizzly bear in calculus class.'
+      'text':'Close up of grapes on a rotating table. High Definition.'
     },
     {
-      'link':'./img/2.gif',
-      'name': 'MagicVideo',
+      'link':'./img/002.gif',
+      'name': 'im2',
       'header': '',
-      'text':'A person riding a horse in the sunrise.'
+      'text':'Raw fresh beef meat fillet on a wooden plate with dill.'
     },
     {
-      'link':'./img/3.gif',
-      'name': 'MagicVideo',
+      'link':'./img/003.gif',
+      'name': 'im3',
       'header': '',
-      'text':'Coffee pouring into a cup.'
+      'text':'Close up coffee being poured into a glass. Slow motion.'
     },
     {
-      'link':'./img/4.gif',
-      'name': 'MagicVideo',
+      'link':'./img/004.gif',
+      'name': 'im4',
       'header': '',
-      'text':'An astronaut is riding a horse in the space in a photorealistic style'
+      'text':'A waving flag close up realistic animation seamless loop.'
     },
     {
-      'link':'./img/5.gif',
-      'name': 'MagicVideo',
+      'link':'./img/005.gif',
+      'name': 'im5',
       'header': '',
-      'text':'Robot dancing in times square'
+      'text':'Face of happy macho mature man looking at camera.'
     },
     {
-      'link':'./img/6.gif',
-      'name': 'MagicVideo',
+      'link':'./img/006.gif',
+      'name': 'im6',
       'header': '',
-      'text':'Drone flythrough of a tropical jungle covered in snow.'
+      'text':'Blue sky clouds timelapse 4k time lapse big white clouds cumulus growing cloud formation sunny weather background.'
     },
     {
-      'link':'./img/7.gif',
-      'name': 'MagicVideo',
+      'link':'./img/007.gif',
+      'name': 'im7',
       'header': '',
-      'text':'A beautiful sunrise on mars, Curiosity rover. High definition, timelapse, dramatic colors.'
+      'text':'Campfire at night in a snowy forest with starry sky in the background.'
     },
     {
-      'link':'./img/8.gif',
-      'name': 'MagicVideo',
+      'link':'./img/008.gif',
+      'name': 'im8',
       'header': '',
-      'text':'Wooden figurine walking on a treadmill made out of exercise mat'
+      'text':'Ocean waves hitting headland rocks pacifica california slow motion.'
     },
     {
-      'link':'./img/9.gif',
-      'name': 'MagicVideo',
+      'link':'./img/009.gif',
+      'name': 'im9',
       'header': '',
-      'text':'Sprouts in the shape of text "Imagen" coming out of a fairytale book.'
-    }
-  ];
+      'text':'There is a table by a window with sunlight streaming through illuminating a pile of books.'
+    },
+    {
+      'link':'./img/010.gif',
+      'name': 'im10',
+      'header': '',
+      'text':'Beautiful sexy lady in elegant white robe. close up fashion portrait of model indoors. beauty blonde woman.'
+    },
+    {
+      'link':'./img/011.gif',
+      'name': 'im11',
+      'header': '',
+      'text': 'Fire burning in a forest.'
+    },
+    {
+      'link':'./img/012.gif',
+      'name': 'im12',
+      'text': 'Fireworks.',
+      'head': ''
+    },
+    {
+      'link':'./img/013.gif',
+      'name': 'im13',
+      'header': '',
+      'text': 'Melting pistachio ice cream dripping down the cone.'
+    },
+    {
+      'link':'./img/014.gif',
+      'name': 'im14',
+      'text': 'A 3D model of an elephant origami. Studio lighting.',
+      'header': ''
+    },
+    {
+      'link':'./img/015.gif',
+      'name': 'im15',
+      'header': '',
+      'text': 'Strawberry close-up on a black background swinging, slow motion. water flows down the berry.'
+    },
+    {
+      'link':'./img/016.gif',
+      'name': 'im16',
+      'header': '',
+      'text': 'A spaceship is landing.'
+    },
+    {
+      'link':'./img/017.gif',
+      'name': 'im17',
+      'header': '',
+      'text': 'A girl is looking at the camera smiling. High Definition.'
+    },
+    {
+      'link':'./img/018.gif',
+      'name': 'im18',
+      'header': '',
+      'text': 'A girl is looking at the camera smiling. High Definition.'
+    },
+    {
+      'link':'./img/019.gif',
+      'name': 'im19',
+      'header': '',
+      'text': 'Drone flythrough of a tropical jungle covered in snow. High Definition.'
+    },
+    {
+      'link':'./img/020.gif',
+      'name': 'im20',
+      'header': '',
+      'text': 'Ocean waves hitting headland rocks pacifica california slow motion.'
+    },
+
+    {
+      'link':'./img/021.gif',
+      'name': 'im21',
+      'header': '',
+      'text': 'Fog at the end of the path in the summer-autumn forest. nobody present. scary scene. peaceful. quiet.'
+    },
+    {
+      'link':'./img/022.gif',
+      'name': 'im22',
+      'header': '',
+      'text': 'Cars running on the highway at night.'
+    },
+    {
+      'link':'./img/023.gif',
+      'name': 'im23',
+      'header': '',
+      'text': 'Strawberry close-up on a black background swinging, slow motion. water flows down the berry.'
+    },
+    {
+      'link':'./img/024.gif',
+      'name': 'im24',
+      'header': '',
+      'text': 'A giant spaceship is landing on mars in the sunset. High Definition.'
+    },
+    {
+      'link':'./img/025.gif',
+      'name': 'im25',
+      'header': '',
+      'text': 'A giant spaceship is landing on mars in the sunset. High Definition.'
+    },
+    {
+      'link':'./img/026.gif',
+      'name': 'im26',
+      'header': '',
+      'text': 'A man is riding a horse in sunset.'
+    },
+    {
+      'link':'./img/027.gif',
+      'name': 'im27',
+      'header': '',
+      'text': 'close up of a clown fish swimming. 4K'
+    },
+    {
+      'link':'./img/028.gif',
+      'name': 'im28',
+      'header': '',
+      'text': 'Ocean waves hitting headland rocks pacifica california slow motion.'
+    },
+    {
+      'link':'./img/029.gif',
+      'name': 'im29',
+      'header': '',
+      'text': 'Ocean waves hitting headland rocks pacifica california slow motion.'
+    },
+    {
+      'link':'./img/030.gif',
+      'name': 'im30',
+      'header': '',
+      'text': 'a boring bear is standing behind a bar table. High Definition.'
+    },
+    {
+      'link':'./img/031.gif',
+      'name': 'im31',
+      'header': '',
+      'text': 'close up coffee being poured into a glass. Slow motion. 4K'
+    },
+    {
+      'link':'./img/033.gif',
+      'name': 'im33',
+      'header': '',
+      'text': 'Beautiful pink rose background. blooming rose flower rotation, close-up.'
+    },
+    {
+      'link':'./img/034.gif',
+      'name': 'im34',
+      'header': '',
+      'text': 'flag waving slow motion 3d rendering blue sky background - seamless loop 4k'
+    },
+    {
+      'link':'./img/035.gif',
+      'name': 'im35',
+      'header': '',
+      'text': 'Face of happy macho mature man smiling.'
+    },
+
+{
+      'link':'./img/036.gif',
+      'name': 'im36',
+      'header': '',
+      'text': 'Fireworks'
+    },
+{
+      'link':'./img/037.gif',
+      'name': 'im37',
+      'header': '',
+      'text': 'A cat eating food out of a bowl, in style of Van Gogh.'
+    },
+{
+      'link':'./img/038.gif',
+      'name': 'im38',
+      'header': '',
+      'text': 'Wide shot of woman worker using welding machine on her work in site construction.'
+    },
+{
+      'link':'./img/039.gif',
+      'name': 'im39',
+      'header': '',
+      'text': 'celebration of christmas.'
+    },
+{
+      'link':'./img/040.gif',
+      'name': 'im40',
+      'header': '',
+      'text': 'Young girl eye macro, shot in raw, 4k'
+    },
+{
+      'link':'./img/041.gif',
+      'name': 'im41',
+      'header': '',
+      'text': 'A fire is burning on a candle.'
+    },
+
+  ]
+
   // Descriptions of all options available on the demo site:
   // http://lokeshdhakar.com/projects/lightbox2/index.html#options
   Lightbox.defaults = {
