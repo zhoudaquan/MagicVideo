@@ -2,7 +2,7 @@ jQuery(document).ready(function($) {
 
 
   //for (data of data_list) {
-  for(i = 0; i < 15; i++) {
+  for(i = 0; i < 20; i++) {
     data = data_list[i];
   if (document.getElementById('image-container')!= null){
     document.getElementById('image-container').innerHTML += `
@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
 
         $('#loadmore').click(function(){
             document.getElementById('loadmorediv').hidden = true;
-            for(i = 15; i < data_list.length; i++) {
+            for(i = 20; i < data_list.length; i++) {
                 data=data_list[i];
                 document.getElementById('image-container').innerHTML += `
   		  <a href=${data.link} data-lightbox="image-1">
