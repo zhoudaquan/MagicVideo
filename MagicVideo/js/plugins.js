@@ -281,7 +281,66 @@
       'header': '',
       'text': 'A fire is burning on a candle.'
     },
-
+{
+      'link':'./img/042.gif',
+      'name': 'im42',
+      'header': '',
+      'text': 'Pov driving high rural mountain country road snow winter blue sky nature environment sierra nevada usa.'
+    },
+{
+      'link':'./img/043.gif',
+      'name': 'im43',
+      'header': '',
+      'text': 'Close-up milky liquid being poured. slow motion.'
+    },
+{
+      'link':'./img/044.gif',
+      'name': 'im44',
+      'header': '',
+      'text': 'Lid taken off gift box with puppy inside on table top with holiday gifts.'
+    },
+{
+      'link':'./img/045.gif',
+      'name': 'im45',
+      'header': '',
+      'text': 'Silhouette of retired caucasian american couple enjoying the sunrise having kayaking trip on the lake outdoors red dragon.'
+    },
+{
+      'link':'./img/046.gif',
+      'name': 'im46',
+      'header': '',
+      'text': 'Woman in sunset.'
+    },
+{
+      'link':'./img/047.gif',
+      'name': 'im47',
+      'header': '',
+      'text': 'Aerial autumn forest with a river in the mountains.'
+    },
+{
+      'link':'./img/048.gif',
+      'name': 'im48',
+      'header': '',
+      'text': 'Wildfire in mountain of thailand (pan shot).'
+    },
+{
+      'link':'./img/049.gif',
+      'name': 'im49',
+      'header': '',
+      'text': 'Face of happy macho mature man smiling.'
+    },
+{
+      'link':'./img/050.gif',
+      'name': 'im50',
+      'header': '',
+      'text': 'Strawberry close-up on a black background swinging, slow motion. water flows down the berry.'
+    },
+{
+      'link':'./img/051.gif',
+      'name': 'im51',
+      'header': '',
+      'text': 'London, uk - november 16,2014:traffic, buses and cars in baker street move slowly in london england. congested city traffic.'
+    },
   ]
 
   // Descriptions of all options available on the demo site:
