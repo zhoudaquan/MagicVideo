@@ -1,6 +1,5 @@
 jQuery(document).ready(function($) {
 
-
   //for (data of data_list) {
   for(i = 0; i < 20; i++) {
     data = data_list[i];
@@ -14,7 +13,7 @@ jQuery(document).ready(function($) {
             </div>
         </div>
         <div class="image" >
-            <img src=${data.link} alt="imgae not in path" id=${data.name}>
+<img src=${data.link} alt="image not in path" id=${data.name} onmouseover="mouseover(this)" onmouseout="mouseout(this)"/>
         </div>
     </div></a>
 `;
@@ -24,13 +23,6 @@ jQuery(document).ready(function($) {
 }
 
 	'use strict';
-        function is_mobile() {
-          var uai = navigator.userAgent;
-          var Agents = ['Android', 'iPhone'];
-          var gar = Agents.filter(i => uai.includes(i));
-          return gar.length ? true : false;
-       }
-    //var ism = is_mobile();
 
         $('#loadmore').click(function(){
             document.getElementById('loadmorediv').hidden = true;
@@ -45,39 +37,13 @@ jQuery(document).ready(function($) {
                       </div>
                     </div>
                     <div class="image" >
-                      <img src=${data.link} alt="image not in path" id=${data.name}>
+                      <img src=${data.link} alt="image not in path" id=${data.name} onmouseover="mouseover(this)" onmouseout="mouseout(this)"/>
                     </div>
              </div></a>
 `;
             }
-
-         $('img').mouseover(function() {
-            if(!is_mobile()){
-            this.style.opacity=0.3;
-            document.getElementsByName(this.id)[0].hidden=false;}
-         });
-         $('img').mouseout(
-            function() {
-               this.style.opacity = 1.0;
-               dv = document.getElementsByName(this.id)[0];
-               dv.hidden=true;
-            });
         });
 
-        $('img').mouseover(
-            function() {
-              if (!is_mobile()) {
-               this.style.opacity = 0.3;
-               dv = document.getElementsByName(this.id)[0];
-               dv.hidden=false;}
-            }
-        );
-        $('img').mouseout(
-            function() {
-               this.style.opacity = 1.0;
-               dv = document.getElementsByName(this.id)[0];
-               dv.hidden=true;
-            });
         $(function() {
   
           // Vars

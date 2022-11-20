@@ -30,6 +30,10 @@ body, html {
   text-align: center;
 }
 
+.heading-content  {
+  margin-left: 40px;
+  margin-right: 40px;
+}
 .page-heading .heading-content h1 {
   font-size: 32px;
   text-transform: uppercase;
@@ -252,7 +256,7 @@ nav {
 
 #video-container .video-overlay {
   z-index: 9999;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0, 0.9);
   width: 100%;
 }
 
